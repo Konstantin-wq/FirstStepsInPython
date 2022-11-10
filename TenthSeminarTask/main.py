@@ -4,8 +4,7 @@ from create_polinom import first_polynom_input, second_polynom_input
 from sum import sum_polinoms
 import re
 
-bot = telebot.TeleBot(
-    "TOKEN", parse_mode=None)
+bot = telebot.TeleBot('5704954071:AAE34w42XMJO-g9jepW41iYl1D9uekPIx5o', parse_mode=None)
 
 polinom1 = open('TenthSeminarTask\\polinom1.txt')
 polinom2 = open('TenthSeminarTask\\polinom2.txt')
